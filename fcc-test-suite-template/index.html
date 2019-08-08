@@ -1,14 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head >
-    <h1  id="title">landing page</h1>
+  <head>
+    <h1  id="header">Product Landing Page</h1>
     <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
+    <title>Product Landing Page</title>
     <link rel="stylesheet" href="css/style.css">
   </head>
 
   <body>
-    <p id="description">description</p>
+    <header id="header">
+      <nav id="nav-bar">
+        <img id="header-img" src="https://paulgureghian.s3.amazonaws.com/logos/download.png" alt="ge logo" />
+       <ul>
+          <li><a class="nav-link" href="#company">Company</a></li>
+          <li><a class="nav-link" href="#revenue">Revenue</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<section id="company">
+  <h2>About the Company</h2>
+  <p> GE exists to bring real progress and possibility to every corner of the planet.</p>
+</section>
+
+<section id="revenue">
+  <h2>Revenue for 2018</h2>
+  <p>Total revenue for GE in 2018 was US$ 121 billion (2018).</p>
+</section>
+
+<section id="contact">
+  <h2>Contact us</h2>
+  <p>617-443-3000</p>
+</section>
+
       <form  id="survey-form">
         Name:<input id="name" type='text' placeholder="Enter your name" /required>
         <label id="name-label" for="name"> * Name: </label>
@@ -18,7 +43,6 @@
         <label id="number-label" for="age"> * Age: </label>
         <button id="submit" type="submit">Submit</button>
     </form>
-
 
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <script  src="js/index.js"></script>
